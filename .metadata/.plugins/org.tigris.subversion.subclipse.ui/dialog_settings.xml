@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="500" key="CommitDialog.weights.0"/>
+	<item value="500" key="CommitDialog.weights.1"/>
+	<item value="219" key="CommitDialog.location.y"/>
+	<item value="367" key="CommitDialog.location.x"/>
+	<item value="https://user-20170602ua/svn/taibei-repository/trunk" key="RepositorySelectionPage.lastRepository"/>
+	<item value="1186" key="CommitDialog.size.x"/>
+	<item value="452" key="CommitDialog.size.y"/>
+	<item value="" key="DirectorySelectionPage.lastParent_https://user-20170820be/svn/taobei-manager-Repository"/>
+	<item value="" key="DirectorySelectionPage.lastParent_https://user-20170602ua/svn/taibei-repository/trunk"/>
+	<section name="CommitWizard">
+		<item value="false" key="ShowCompare"/>
+		<item value="500" key="VWeight2"/>
+		<item value="500" key="VWeight1"/>
+	</section>
+	<section name="IgnoreResourcesDialog">
+		<item value="0" key="Action"/>
+	</section>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="https://USER-20170602UA/svn/taibei-repository/trunk"/>
+		</list>
+	</section>
+</section>

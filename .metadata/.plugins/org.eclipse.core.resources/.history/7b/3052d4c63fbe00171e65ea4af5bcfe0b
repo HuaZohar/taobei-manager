@@ -1,0 +1,9 @@
+package com.taobei.fastdfs;
+
+import org.csource.fastdfs.ClientGlobal;
+
+public class FasdfsTest {
+	public void testUpload(){
+		ClientGlobal.init("");
+	}
+}

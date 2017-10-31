@@ -1,0 +1,13 @@
+package com.taobei.fastdfs;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.csource.common.MyException;
+import org.csource.fastdfs.ClientGlobal;
+
+public class FasdfsTest {
+	public void testUpload() throws FileNotFoundException, IOException, MyException{
+		ClientGlobal.init("G:\\java\\taobei_pro\\taobei-manager\\taobei-manager-web\\src\\main\\resources\\properties\\client.conf");
+	}
+}

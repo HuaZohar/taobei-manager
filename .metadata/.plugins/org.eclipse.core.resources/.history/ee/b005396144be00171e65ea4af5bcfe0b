@@ -1,0 +1,8 @@
+package com.taobei.utils;
+
+import org.csource.fastdfs.TrackerServer;
+
+public class FastDFSClient {
+	private TrackerServer trackerServer = null;
+	
+}

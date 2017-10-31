@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 8 resources" deleteContents="true" description="Delete 8 resources" element1="/pagehelper" element2="/taobei-common" element3="/taobei-manager" element4="/taobei-manager-dao" element5="/taobei-manager-pojo" element6="/taobei-manager-service" element7="/taobei-manager-web" element8="/taobei-parent" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="8" stamp="1509259274784"/>
+</session>
