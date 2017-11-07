@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=taobei-manager-service/src\/main\/java&lt;com.taobei.service{PictureService.java[PictureService" modifiers="513" timestamp="1509537037690"/>
+<typeInfo handle="=taobei-manager-service/src\/main\/java&lt;com.taobei.service{ItemParamService.java[ItemParamService" modifiers="513" timestamp="1509864877943"/>
+</typeInfoHistroy>

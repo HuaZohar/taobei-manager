@@ -1,0 +1,30 @@
+package com.taobei.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.taobei.common.pojo.EasyUITreeNode;
+import com.taobei.mapper.TbContentCategoryMapper;
+import com.taobei.pojo.TbContentCategoryExample;
+import com.taobei.pojo.TbContentCategoryExample.Criteria;
+import com.taobei.service.ContentCatgoryService;
+
+@Service
+public class ContentCatgoryServiceImpl implements ContentCatgoryService {
+
+	private TbContentCategoryMapper contentCategoryMapper;
+	
+	@Override
+	public List<EasyUITreeNode> getContentCatList(Long parentId) throws Exception {
+		
+		TbContentCategoryExample example = new TbContentCategoryExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andParentIdEqualTo(parentId);
+		
+		List<> list = contentCategoryMapper.selectByExample(example);
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,41 @@
+package com.taobei.service.impl;
+
+import java.io.IOException;
+
+import org.csource.common.MyException;
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
+import com.taobei.common.pojo.PictureResult;
+import com.taobei.common.utils.FastDFSClient;
+import com.taobei.service.PictureService;
+
+@Service
+public class PictureServiceImpl implements PictureService {
+
+	@Override
+	public PictureResult uploadPic(MultipartFile multipartFile) {
+		PictureResult pictureResult = new PictureResult();
+		
+		if(multipartFile.isEmpty()){
+			pictureResult.setError(1);
+			pictureResult.setMessage("图片为空");
+			return pictureResult;
+		}
+		
+		try {
+			String originalFileName = multipartFile.getOriginalFilename();
+			
+			
+			FastDFSClient fastDFSClient = new FastDFSClient("classpath:properties/client.conf");
+			fastDFSClient.uploadFile(multipartFile.getBytes(), extName)
+			
+		} catch (IOException | MyException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+
+}

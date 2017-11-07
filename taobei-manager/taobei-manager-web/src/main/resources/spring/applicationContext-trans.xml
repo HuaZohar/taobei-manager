@@ -44,7 +44,7 @@
 	
 	<!-- aop -->
 	<aop:config>
-		<aop:advisor advice-ref="txAdvice" pointcut="execution(* cn.hr.ssm.service.impl.*.*(..))"/>
+		<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.taobei.service.*.*(..))"/>
 	</aop:config>
 	
 	

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.taobei.common.pojo.TaotaoResult&apos; to &apos;TaobeiResult&apos;&#x0D;&#x0A;- Original project: &apos;taobei-common&apos;&#x0D;&#x0A;- Original element: &apos;com.taobei.common.pojo.TaotaoResult&apos;&#x0D;&#x0A;- Renamed element: &apos;com.taobei.common.pojo.TaobeiResult&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TaotaoResult&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.taobei.common.pojo{TaotaoResult.java[TaotaoResult" matchStrategy="1" name="TaobeiResult" qualified="false" references="true" similarDeclarations="false" stamp="1509626508762" textual="false" version="1.0"/>
+</session>

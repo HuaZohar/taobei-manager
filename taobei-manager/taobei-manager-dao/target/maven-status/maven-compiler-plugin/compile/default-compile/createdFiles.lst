@@ -1,0 +1,11 @@
+com\taobei\mapper\TbItemDescMapper.class
+com\taobei\mapper\TbOrderMapper.class
+com\taobei\mapper\TbOrderShippingMapper.class
+com\taobei\mapper\TbItemMapper.class
+com\taobei\mapper\TbItemParamMapper.class
+com\taobei\mapper\TbOrderItemMapper.class
+com\taobei\mapper\TbItemCatMapper.class
+com\taobei\mapper\TbContentMapper.class
+com\taobei\mapper\TbContentCategoryMapper.class
+com\taobei\mapper\TbUserMapper.class
+com\taobei\mapper\TbItemParamItemMapper.class

@@ -1,0 +1,48 @@
+package com.taobei.rest.service.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.taobei.mapper.TbItemCatMapper;
+import com.taobei.pojo.TbItemCat;
+import com.taobei.pojo.TbItemCatExample;
+import com.taobei.pojo.TbItemCatExample.Criteria;
+import com.taobei.rest.pojo.CatNode;
+import com.taobei.rest.pojo.ItemCatResult;
+import com.taobei.rest.service.ItemCatService;
+
+@Service
+public class ItemCatServiceImpl implements ItemCatService{
+
+	@Autowired
+	private TbItemCatMapper itemCatMapper;
+	
+	@Override
+	public ItemCatResult getItemCatList() throws Exception {
+		
+		
+		return null;
+	}
+	
+	private List getItemCatList(Long parentId){
+		
+		//根据parentId查询列表
+		TbItemCatExample example = new TbItemCatExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andParentIdEqualTo(parentId);
+		
+		List<TbItemCat> list = itemCatMapper.selectByExample(example);
+		List resultList = new ArrayList<>();
+		for(TbItemCat itemCat :list){
+			CatNode catNode = new CatNode();
+			catNode.setUrl("/products/"+itemCat.getId()+".html");
+			catNode.setName("<a href='/products/"+itemCat.getId()+".html'>"+itemCat.getName()+"</a>");
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.taobei.service;
+
+public interface PictureService {
+
+}

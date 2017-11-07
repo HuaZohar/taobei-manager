@@ -1,0 +1,13 @@
+package com.taobei.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.taobei.service.PictureService;
+
+@Controller
+public class PictureController {
+	
+	@Autowired
+	private PictureService pictureService;
+}

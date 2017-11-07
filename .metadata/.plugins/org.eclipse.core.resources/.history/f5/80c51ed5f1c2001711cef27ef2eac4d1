@@ -1,0 +1,5 @@
+package com.taobei.rest.pojo;
+
+public class ItemCatResult {
+	private List date;
+}

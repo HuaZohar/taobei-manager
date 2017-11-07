@@ -1,0 +1,12 @@
+package com.taobei.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.taobei.service.ContentService;
+
+@Controller
+public class ContentController {
+	
+	private ContentService contentService;
+	
+}

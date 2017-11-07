@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syncparticipants>
-<participant displayName="SVN (/pagehelper, /taobei-common, /taobei-manager, /taobei-parent)" id="org.tigris.subversion.subclipse.participant" secondary_id="1509256857177">
+<participant displayName="SVN (/fastdfs_client, /pagehelper, /taobei-common, /taobei-manager, /taobei-parent, /taobei-portal, /taobei-rest)" id="org.tigris.subversion.subclipse.participant" secondary_id="1509976468618">
 <data root="false">
 <org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="ResourceScope">
 <org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<resource_scope_roots resource_scope_root_resource="/fastdfs_client"/>
 <resource_scope_roots resource_scope_root_resource="/pagehelper"/>
 <resource_scope_roots resource_scope_root_resource="/taobei-common"/>
 <resource_scope_roots resource_scope_root_resource="/taobei-manager"/>
 <resource_scope_roots resource_scope_root_resource="/taobei-parent"/>
+<resource_scope_roots resource_scope_root_resource="/taobei-portal"/>
+<resource_scope_roots resource_scope_root_resource="/taobei-rest"/>
 </org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
 </data>
 </participant>

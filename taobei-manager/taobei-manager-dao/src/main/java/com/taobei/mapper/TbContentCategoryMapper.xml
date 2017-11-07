@@ -103,6 +103,12 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.taobei.pojo.TbContentCategory" >
+  
+  	<!-- 插入之后返回指定的字段值 -->
+  	<selectKey keyProperty="id" order="AFTER" resultType="long">
+  		select last_insert_id();
+  	</selectKey>
+  
     insert into tb_content_category (id, parent_id, name, 
       status, sort_order, is_parent, 
       created, updated)

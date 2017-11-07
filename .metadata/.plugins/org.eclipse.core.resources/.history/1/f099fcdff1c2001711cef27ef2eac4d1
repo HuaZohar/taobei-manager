@@ -1,0 +1,9 @@
+package com.taobei.rest.pojo;
+
+import java.util.List;
+
+public class ItemCatResult {
+	private List data;
+	
+	
+}
