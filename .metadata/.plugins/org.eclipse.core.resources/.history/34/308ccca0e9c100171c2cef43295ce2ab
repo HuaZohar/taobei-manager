@@ -1,7 +1,0 @@
-package com.taobei.service;
-
-import com.taobei.pojo.TbItemParam;
-
-public interface ItemParamService {
-	EasyUIDataGridResult getItemParamList(int page,int rows) throws Exception;
-}

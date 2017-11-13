@@ -1,0 +1,15 @@
+package com.taobei.rest.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.taobei.rest.service.ContentService;
+
+@Controller
+public class ContentController {
+	
+	@Autowired
+	private ContentService contentService;
+	
+	
+}

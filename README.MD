@@ -1,1 +1,1 @@
-淘贝商城 源码开发中。技术：SSM maven redis nginx fastDFS ..
+淘贝项目功能添加：CMS 前台首页  FastDFS搭建

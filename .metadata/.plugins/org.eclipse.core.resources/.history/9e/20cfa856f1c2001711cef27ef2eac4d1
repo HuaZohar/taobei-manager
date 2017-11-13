@@ -1,6 +1,0 @@
-package com.taobei.rest.pojo;
-
-public class CatNode {
-
-	private String url;
-}

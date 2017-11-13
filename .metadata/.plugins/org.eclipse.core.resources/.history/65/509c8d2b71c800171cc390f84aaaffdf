@@ -1,0 +1,16 @@
+package com.taobei.rest.service.impl;
+
+import java.util.List;
+
+import com.taobei.pojo.TbContent;
+import com.taobei.rest.service.ContentService;
+
+public class ContentServiceImpl implements ContentService {
+
+	@Override
+	public List<TbContent> getContentList(Long cid) throws Exception {
+
+		return null;
+	}
+
+}

@@ -2,4 +2,7 @@
 <typeInfoHistroy>
 <typeInfo handle="=taobei-manager-service/src\/main\/java&lt;com.taobei.service{PictureService.java[PictureService" modifiers="513" timestamp="1509537037690"/>
 <typeInfo handle="=taobei-manager-service/src\/main\/java&lt;com.taobei.service{ItemParamService.java[ItemParamService" modifiers="513" timestamp="1509864877943"/>
+<typeInfo handle="=taobei-manager-service/src\/main\/java&lt;com.taobei.service{ContentCatgoryService.java[ContentCatgoryService" modifiers="513" timestamp="1510058769000"/>
+<typeInfo handle="=taobei-manager-service/src\/main\/java&lt;com.taobei.service{ContentService.java[ContentService" modifiers="513" timestamp="1510061854775"/>
+<typeInfo handle="=taobei-rest/src\/main\/java&lt;com.taobei.rest.service{ContentService.java[ContentService" modifiers="513" timestamp="1510577383294"/>
 </typeInfoHistroy>

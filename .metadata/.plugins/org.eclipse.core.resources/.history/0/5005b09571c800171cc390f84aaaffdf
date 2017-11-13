@@ -1,0 +1,5 @@
+package com.taobei.rest.controller;
+
+public class ContentController {
+
+}
