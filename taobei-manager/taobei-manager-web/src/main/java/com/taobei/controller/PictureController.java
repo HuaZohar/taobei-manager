@@ -21,7 +21,7 @@ public class PictureController {
 	public String uploadFile(MultipartFile uploadFile){
 		PictureResult pictureResult = pictureService.uploadPic(uploadFile);
 		String result = JsonUtil.ObjectToJson(pictureResult);
-		return result;
+ 		return result;
 	}
 	
 }

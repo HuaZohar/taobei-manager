@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <syncparticipants>
-<participant displayName="SVN (/fastdfs_client, /pagehelper, /taobei-common, /taobei-manager, /taobei-parent, /taobei-portal, /taobei-rest)" id="org.tigris.subversion.subclipse.participant" secondary_id="1509976468618">
+<participant displayName="SVN (/fastdfs_client, /pagehelper, /taobei-common, /taobei-manager, /taobei-parent, /taobei-portal, /taobei-rest, /taobei-search)" id="org.tigris.subversion.subclipse.participant" secondary_id="1511064066631">
 <data root="false">
 <org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="ResourceScope">
 <org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
@@ -11,6 +11,7 @@
 <resource_scope_roots resource_scope_root_resource="/taobei-parent"/>
 <resource_scope_roots resource_scope_root_resource="/taobei-portal"/>
 <resource_scope_roots resource_scope_root_resource="/taobei-rest"/>
+<resource_scope_roots resource_scope_root_resource="/taobei-search"/>
 </org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
 </data>
 </participant>

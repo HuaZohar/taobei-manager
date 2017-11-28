@@ -1,0 +1,15 @@
+package com.taobei.portal.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.taobei.portal.service.ItemService;
+
+@Controller
+public class ItemController {
+
+	@Autowired
+	private ItemService itemService;
+	
+	public void 
+}

@@ -11,4 +11,6 @@ public interface ContentCatgoryService {
 	TaobeiResult insertCategory(Long parentId,String name) throws Exception;
 	
 	TaobeiResult updateCategory(Long id,String name) throws Exception;
+	
+	TaobeiResult deleteCategory(Long id) throws Exception;
 }

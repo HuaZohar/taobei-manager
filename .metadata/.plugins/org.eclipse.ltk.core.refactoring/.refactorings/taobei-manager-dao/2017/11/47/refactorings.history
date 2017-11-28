@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TbItemMapper.xml&apos; to &apos;taobei-search/src/main/java/com.taobei.search.mapper&apos;&#x0D;&#x0A;- Original project: &apos;taobei-manager-dao&apos;&#x0D;&#x0A;- Destination element: &apos;taobei-search/src/main/java/com.taobei.search.mapper&apos;&#x0D;&#x0A;- Original element: &apos;TbItemMapper.xml&apos;" description="Copy file" destination="=taobei-search/src\/main\/java&lt;com.taobei.search.mapper" element1="src/main/java/com/taobei/mapper/TbItemMapper.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1511186468629" units="0" version="1.0"/>
+</session>

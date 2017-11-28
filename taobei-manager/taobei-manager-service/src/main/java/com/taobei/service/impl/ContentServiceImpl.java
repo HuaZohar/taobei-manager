@@ -52,4 +52,21 @@ public class ContentServiceImpl implements ContentService {
 		return TaobeiResult.ok();
 	}
 
+	@Override
+	public TaobeiResult deleteContent(Long id) throws Exception {
+		contentMapper.deleteByPrimaryKey(id);
+		return TaobeiResult.ok();
+	}
+
+	@Override
+	public TaobeiResult updateContent(TbContent content) throws Exception {
+		contentMapper.updateByPrimaryKey(content);
+		return TaobeiResult.ok();
+	}
+
+	@Override
+	public TbContent getContentById(Long contentId) throws Exception {
+		return contentMapper.selectByPrimaryKey(contentId);
+	}
+
 }

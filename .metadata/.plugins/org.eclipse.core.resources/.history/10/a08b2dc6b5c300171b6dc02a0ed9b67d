@@ -1,9 +1,0 @@
-package com.taobei.service;
-
-import java.util.List;
-
-import com.taobei.common.pojo.EasyUITreeNode;
-
-public interface ContentCatgoryService {
-	List<EasyUITreeNode> getContentCatList(Long parentId) throws Exception;
-}

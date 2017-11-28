@@ -1,0 +1,11 @@
+package com.taobei.portal.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.taobei.portal.service.StaticPageService;
+
+@Controller
+public class StaticPageController {
+	
+	private StaticPageService staticPageService;
+}

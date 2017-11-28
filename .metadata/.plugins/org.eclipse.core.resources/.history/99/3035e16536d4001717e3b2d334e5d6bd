@@ -1,0 +1,47 @@
+package com.taobei.portal.service.impl;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.Writer;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.view.freemarker.FreeMarkerConfig;
+
+import com.taobei.common.pojo.TaobeiResult;
+import com.taobei.pojo.TbItem;
+import com.taobei.portal.service.ItemService;
+import com.taobei.portal.service.StaticPageService;
+
+import freemarker.template.Configuration;
+
+@Service
+public class StaticPageServiceImpl implements StaticPageService {
+
+	@Autowired
+	private ItemService itemService;
+	
+	private FreeMarkerConfig freeMarkerConfig;
+	
+	@Override
+	public TaobeiResult getItemHtml(Long id) throws Exception {
+		//商品基本信息
+		TbItem tbItem = itemService.getItemById(id);
+		String itemDesc = itemService.getItemDescById(id);
+		String itemParam = itemService.getItemParamById(id);
+		
+		//生成静态页面
+		Configuration configuration = freeMarkerConfig.getConfiguration();
+		configuration.getTemplate("item.ftl");
+		//创建数据集
+		Map root = new HashMap<>();
+		
+		
+		Writer out = new FileWriter(new File(""));
+		return null;
+	}
+
+}

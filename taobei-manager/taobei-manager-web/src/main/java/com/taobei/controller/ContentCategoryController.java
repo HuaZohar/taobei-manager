@@ -41,7 +41,12 @@ public class ContentCategoryController {
 	}
 	
 	
-	//????删除
+	//删除
+	@RequestMapping("/delete")
+	@ResponseBody
+	public TaobeiResult deleteCategory(Long id) throws Exception{
+		return contentCatgoryService.deleteCategory(id);
+	}
 	
 	
 }

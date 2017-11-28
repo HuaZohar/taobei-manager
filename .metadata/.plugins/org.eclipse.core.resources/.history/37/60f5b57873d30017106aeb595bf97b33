@@ -1,0 +1,5 @@
+package com.taobei.rest.service;
+
+public interface ItemService {
+
+}

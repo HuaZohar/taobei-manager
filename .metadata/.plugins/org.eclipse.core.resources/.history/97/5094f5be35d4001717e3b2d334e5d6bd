@@ -1,0 +1,29 @@
+package com.taobei.portal.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import com.taobei.common.pojo.TaobeiResult;
+import com.taobei.pojo.TbItem;
+import com.taobei.portal.service.ItemService;
+import com.taobei.portal.service.StaticPageService;
+
+@Service
+public class StaticPageServiceImpl implements StaticPageService {
+
+	@Autowired
+	private ItemService itemService;
+	
+	
+	@Override
+	public TaobeiResult getItemHtml(Long id) throws Exception {
+		//商品基本信息
+		TbItem tbItem = itemService.getItemById(id);
+		String itemDesc = itemService.getItemDescById(id);
+		String itemParam = itemService.getItemParamById(id);
+		
+		return null;
+	}
+
+}

@@ -30,4 +30,22 @@ public class ContentController {
 			return TaobeiResult.build(500, ExceptionUtil.getStackTrace(e));
 		}
 	}
+	
+	/**
+	 * 同步内容
+	 * @param cid
+	 * @return
+	 */
+	@RequestMapping("/sync/content/{cid}")
+	@ResponseBody
+	public TaobeiResult syncContent(@PathVariable Long cid){
+		
+		try {
+			TaobeiResult result = contentService.syncContent(cid);
+			return result;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return TaobeiResult.build(500, ExceptionUtil.getStackTrace(e));
+		}
+	}
 }

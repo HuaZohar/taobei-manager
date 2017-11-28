@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JedisClientSingle.java&apos; to &apos;taobei-rest/src/main/java/com.taobei.rest.component.impl&apos;&#x0D;&#x0A;- Original project: &apos;taobei-rest&apos;&#x0D;&#x0A;- Destination element: &apos;taobei-rest/src/main/java/com.taobei.rest.component.impl&apos;&#x0D;&#x0A;- Original element: &apos;com.taobei.rest.component.impl.JedisClientSingle.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.taobei.rest.component.impl" element1="/src\/main\/java&lt;com.taobei.rest.component.impl{JedisClientSingle.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1510667561412" units="1" version="1.0"/>
+</session>

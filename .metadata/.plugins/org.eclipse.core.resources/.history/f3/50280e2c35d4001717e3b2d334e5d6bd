@@ -1,0 +1,5 @@
+package com.taobei.portal.service;
+
+public interface StaticPageService {
+
+}

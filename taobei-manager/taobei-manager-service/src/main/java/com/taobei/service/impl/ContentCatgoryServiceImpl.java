@@ -10,9 +10,11 @@ import org.springframework.stereotype.Service;
 import com.taobei.common.pojo.EasyUITreeNode;
 import com.taobei.common.pojo.TaobeiResult;
 import com.taobei.mapper.TbContentCategoryMapper;
+import com.taobei.mapper.TbContentMapper;
 import com.taobei.pojo.TbContentCategory;
 import com.taobei.pojo.TbContentCategoryExample;
 import com.taobei.pojo.TbContentCategoryExample.Criteria;
+import com.taobei.pojo.TbContentExample;
 import com.taobei.service.ContentCatgoryService;
 
 @Service
@@ -20,6 +22,9 @@ public class ContentCatgoryServiceImpl implements ContentCatgoryService {
 
 	@Autowired
 	private TbContentCategoryMapper contentCategoryMapper;
+	
+	@Autowired
+	private TbContentMapper contentMapper;
 	
 	/**
 	 * 获取内容分类列表
@@ -79,5 +84,62 @@ public class ContentCatgoryServiceImpl implements ContentCatgoryService {
 		contentCategoryMapper.updateByPrimaryKey(category);
 		return TaobeiResult.ok();
 	}
+
+	@Override
+	public TaobeiResult deleteCategory(Long id) throws Exception {
+		//1.如果为顶层节点，则不删除
+		if(id.equals(0)){
+			return TaobeiResult.build(500, "删除失败：顶层节点不可被删除！");
+		}
+		//2.获取当前节点
+		TbContentCategory category = contentCategoryMapper.selectByPrimaryKey(id);
+
+		//3.查询是否有子节点，如果有子节点，根据parentID=当前节点的ID，删除子节点，，，，此处需要递归删除子孙节点
+		//如果当前节点是父节点，则递归删除子孙节点
+		if(category.getIsParent()){
+			deleteDescendantNode(category.getId());	
+		}
+		
+		//4.查询当前节点的父节点是否还有子节点，如果没有，修改父节点的is_parent字段为0
+		TbContentCategory parentCategory = contentCategoryMapper.selectByPrimaryKey(category.getParentId());
+		parentCategory.setIsParent(false);
+		contentCategoryMapper.updateByPrimaryKey(parentCategory); //提交更新
+		
+		//5.删除当前节点
+		contentCategoryMapper.deleteByPrimaryKey(id);
+		
+		//6.当前节点中的内容文章一起删除
+		TbContentExample example = new TbContentExample();
+		com.taobei.pojo.TbContentExample.Criteria criteria = example.createCriteria();
+		criteria.andCategoryIdEqualTo(id);
+		contentMapper.deleteByExample(example);
+		
+		return TaobeiResult.build(200, "删除成功");
+	}
+	
+
+	/**
+	 * 递归删除子孙节点
+	 * @param parentId 
+	 */
+	private void deleteDescendantNode(Long parentId){
+		TbContentCategoryExample example = new TbContentCategoryExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andParentIdEqualTo(parentId);
+		List<TbContentCategory> categories = contentCategoryMapper.selectByExample(example);
+		for(TbContentCategory contentCategory :categories){
+			if(contentCategory.getIsParent()){
+				deleteDescendantNode(contentCategory.getId());
+			}
+			//同时删除节点对应的文章内容
+			TbContentExample contentExample = new TbContentExample();
+			com.taobei.pojo.TbContentExample.Criteria contentCriteria = contentExample.createCriteria();
+			contentCriteria.andCategoryIdEqualTo(contentCategory.getId());
+			contentMapper.deleteByExample(contentExample);
+			//删除节点
+			contentCategoryMapper.deleteByPrimaryKey(contentCategory.getId());
+		}
+	}
+	
 
 }

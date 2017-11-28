@@ -25,9 +25,10 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="G:\java\taobei_pro"/>
+			<item value="G:\java\taobei_pro\"/>
 			<item value="G:\java\taobei_pro\taobei-rest"/>
 			<item value="G:\java\taobei_pro\taobei-manager\taobei-manager-web"/>
-			<item value="G:\java\taobei_pro"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -79,8 +80,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="taobei-portal"/>
+			<item value="taobei-search"/>
 			<item value="taobei-parent"/>
+			<item value="taobei-portal"/>
 			<item value="taobei-rest"/>
 		</list>
 		<list key="projectNameTemplate">
