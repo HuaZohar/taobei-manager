@@ -1,7 +1,0 @@
-package com.taobei.rest.service;
-
-import com.taobei.pojo.TbItem;
-
-public interface ItemService {
-	TbItem getItemById(Long id);
-}

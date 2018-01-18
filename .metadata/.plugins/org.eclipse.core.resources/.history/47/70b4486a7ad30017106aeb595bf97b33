@@ -1,9 +1,0 @@
-package com.taobei.rest.service;
-
-import com.taobei.pojo.TbItem;
-import com.taobei.pojo.TbItemDesc;
-
-public interface ItemService {
-	TbItem getItemById(Long id) throws Exception;
-	TbItemDesc getItemDescById(Long id) throws Exception;
-}

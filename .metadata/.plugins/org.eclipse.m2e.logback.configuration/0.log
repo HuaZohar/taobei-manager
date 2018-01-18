@@ -3751,3 +3751,327 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2017-11-28 21:31:00,935 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
 2017-11-28 21:31:00,950 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-portal
 2017-11-28 21:31:00,950 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-11-30 20:22:00,640 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-11-30 20:22:04,638 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-manager-web
+2017-11-30 20:22:05,974 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-rest
+2017-11-30 20:22:06,783 [Worker-9] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-search
+2017-11-30 20:22:08,429 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-30 20:22:08,463 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 20:22:08,475 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-30 20:22:08,477 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java\taobei_pro\fastdfs_client\src\test\resources
+2017-11-30 20:22:09,406 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-30 20:22:09,408 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:09,409 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-11-30 20:22:09,411 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:09,836 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-11-30 20:22:10,757 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:10,758 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:10,759 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:10,759 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:12,050 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:12,051 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:12,052 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:12,052 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:12,710 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:12,711 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2017-11-30 20:22:12,822 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:12,823 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:13,676 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:13,676 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:13,677 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:13,678 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:19,837 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:19,838 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2017-11-30 20:22:19,978 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:19,978 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:19,978 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-manager-web
+2017-11-30 20:22:19,978 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-manager-web
+2017-11-30 20:22:19,984 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:22,576 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:22,576 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-11-30 20:22:22,628 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:22,629 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:22,630 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-portal
+2017-11-30 20:22:22,630 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-portal
+2017-11-30 20:22:22,637 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:23,590 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:23,591 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2017-11-30 20:22:23,713 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:23,713 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:23,713 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-rest
+2017-11-30 20:22:23,713 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-rest
+2017-11-30 20:22:23,720 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:24,541 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:24,542 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-11-30 20:22:24,558 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2017-11-30 20:22:24,633 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:22:24,634 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:22:24,634 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-search
+2017-11-30 20:22:24,634 [Worker-10] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-search
+2017-11-30 20:22:24,637 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:29:03,658 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-sso:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-sso\pom.xml.
+2017-11-30 20:29:04,630 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/main/java
+2017-11-30 20:29:04,631 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/main/resources
+2017-11-30 20:29:04,631 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/test/java
+2017-11-30 20:29:04,631 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/test/resources
+2017-11-30 20:34:52,564 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-11-30 20:34:53,525 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-sso:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-sso\pom.xml.
+2017-11-30 20:34:54,483 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-11-30 20:34:55,685 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/main/java
+2017-11-30 20:34:55,685 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/main/resources
+2017-11-30 20:34:55,697 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/test/java
+2017-11-30 20:34:55,698 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/test/resources
+2017-11-30 20:34:57,478 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-sso
+2017-11-30 20:34:57,504 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-11-30 20:34:58,129 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:34:58,129 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2017-11-30 20:34:58,155 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:34:58,156 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:34:58,156 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-sso
+2017-11-30 20:34:58,156 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-sso
+2017-11-30 20:34:58,159 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:37:19,685 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-sso
+2017-11-30 20:37:19,764 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:37:19,765 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2017-11-30 20:37:19,792 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:37:19,792 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-11-30 20:37:19,792 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-sso
+2017-11-30 20:37:19,792 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-sso
+2017-11-30 20:37:19,797 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-11-30 20:39:44,978 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-11-30 20:39:45,989 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-sso:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-sso\pom.xml.
+2017-11-30 20:39:48,107 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/main/java
+2017-11-30 20:39:48,107 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/main/resources
+2017-11-30 20:39:48,108 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/test/java
+2017-11-30 20:39:48,108 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/test/resources
+2017-11-30 20:39:49,264 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-sso
+2017-11-30 20:39:49,272 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-11-30 20:40:56,310 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-11-30 20:40:57,347 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-sso:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-sso\pom.xml.
+2017-11-30 20:40:59,530 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/main/java
+2017-11-30 20:40:59,530 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/main/resources
+2017-11-30 20:40:59,531 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/test/java
+2017-11-30 20:40:59,531 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/test/resources
+2017-11-30 20:41:00,928 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-sso
+2017-11-30 20:41:00,932 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-11-30 21:04:08,610 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-11-30 21:05:01,703 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-11-30 21:05:01,703 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat:7 run
+2017-11-30 21:05:41,398 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-11-30 21:05:41,465 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-search
+2017-11-30 21:05:41,465 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-11-30 21:05:51,662 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-11-30 21:05:51,688 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-11-30 21:05:51,688 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat:7 run
+2017-11-30 21:05:59,614 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-11-30 21:06:12,488 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-11-30 21:06:12,488 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-11-30 21:08:39,086 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-11-30 21:08:39,087 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-01 19:34:23,657 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-01 19:34:23,681 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-01 19:39:33,106 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-01 19:39:33,107 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-01 19:40:33,717 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-01 19:40:33,717 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-01 20:21:55,986 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-common
+2017-12-01 20:21:55,986 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2017-12-01 20:23:03,968 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-12-01 20:24:16,252 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-common:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-common\pom.xml.
+2017-12-01 20:24:16,385 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-12-01 20:24:16,533 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-manager-dao:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\taobei-manager-dao\pom.xml.
+2017-12-01 20:24:16,679 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.taobei:taobei-manager:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\pom.xml.
+2017-12-01 20:24:16,802 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-manager-web:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\taobei-manager-web\pom.xml.
+2017-12-01 20:24:17,191 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-manager-service:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\taobei-manager-service\pom.xml.
+2017-12-01 20:24:17,375 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-manager-pojo:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\taobei-manager-pojo\pom.xml.
+2017-12-01 20:24:17,508 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-rest:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-rest\pom.xml.
+2017-12-01 20:24:17,716 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-search:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-search\pom.xml.
+2017-12-01 20:24:17,924 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-portal:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-portal\pom.xml.
+2017-12-01 20:24:18,110 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-sso:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-sso\pom.xml.
+2017-12-01 20:24:25,572 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-12-01 20:24:26,112 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:26,143 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:26,149 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:26,149 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:43,460 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-manager-web
+2017-12-01 20:24:43,851 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-portal
+2017-12-01 20:24:44,313 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-rest
+2017-12-01 20:24:45,345 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-sso
+2017-12-01 20:24:46,398 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-01 20:24:46,399 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-01 20:24:46,407 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-01 20:24:46,408 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\java\taobei_pro\fastdfs_client\src\test\resources
+2017-12-01 20:24:47,044 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-01 20:24:47,045 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:47,046 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-01 20:24:47,047 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:47,258 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-12-01 20:24:47,772 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:47,773 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:47,774 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:47,774 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:48,804 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:48,804 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:48,805 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:48,806 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:49,225 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:49,226 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2017-12-01 20:24:49,337 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:49,338 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:49,859 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:49,859 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:49,860 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:49,860 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:55,800 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:55,801 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2017-12-01 20:24:55,890 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:55,890 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:55,891 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-manager-web
+2017-12-01 20:24:55,891 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-manager-web
+2017-12-01 20:24:55,895 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:58,340 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:58,340 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-12-01 20:24:58,397 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:58,397 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:58,397 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-portal
+2017-12-01 20:24:58,397 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-portal
+2017-12-01 20:24:58,400 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:59,007 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:59,007 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2017-12-01 20:24:59,122 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:59,122 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:59,122 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-rest
+2017-12-01 20:24:59,122 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-rest
+2017-12-01 20:24:59,126 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:59,714 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:59,714 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-01 20:24:59,720 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2017-12-01 20:24:59,796 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:24:59,796 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:24:59,796 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-search
+2017-12-01 20:24:59,796 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-search
+2017-12-01 20:24:59,799 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:25:00,297 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:25:00,297 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2017-12-01 20:25:00,321 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:25:00,321 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-01 20:25:00,322 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of taobei-sso
+2017-12-01 20:25:00,322 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for taobei-sso
+2017-12-01 20:25:00,325 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-01 20:26:38,764 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-common
+2017-12-01 20:26:38,764 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2017-12-01 20:37:19,907 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-manager
+2017-12-01 20:37:19,907 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2017-12-01 20:37:41,197 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-01 20:37:41,197 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-01 20:51:41,481 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-01 20:51:41,481 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-01 21:04:00,332 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-01 21:04:00,333 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-01 21:07:49,062 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-01 21:07:49,062 [Worker-56] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-01 21:18:13,469 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-12-01 21:18:13,526 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-portal
+2017-12-01 21:18:13,527 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-01 21:18:20,677 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-rest
+2017-12-01 21:18:20,677 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 19:51:59,691 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-12-05 19:52:05,275 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fastdfs_client:fastdfs_client:1.25 @ G:\java\taobei_pro\fastdfs_client\pom.xml.
+2017-12-05 19:52:05,633 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.github.pagehelper:pagehelper:3.4.2-fix @ G:\java\taobei_pro\pagehelper\pom.xml.
+2017-12-05 19:52:05,782 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-common:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-common\pom.xml.
+2017-12-05 19:52:05,982 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-12-05 19:52:06,049 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.taobei:taobei-manager:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\pom.xml.
+2017-12-05 19:52:06,234 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-manager-dao:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\taobei-manager-dao\pom.xml.
+2017-12-05 19:52:06,480 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-manager-pojo:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\taobei-manager-pojo\pom.xml.
+2017-12-05 19:52:06,640 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-manager-service:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\taobei-manager-service\pom.xml.
+2017-12-05 19:52:07,012 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-manager-web:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-manager\taobei-manager-web\pom.xml.
+2017-12-05 19:52:07,386 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.taobei:taobei.parent:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-parent\pom.xml.
+2017-12-05 19:52:07,468 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-portal:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-portal\pom.xml.
+2017-12-05 19:52:07,694 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-rest:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-rest\pom.xml.
+2017-12-05 19:52:07,944 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-search:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-search\pom.xml.
+2017-12-05 19:52:08,196 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.taobei:taobei-sso:0.0.1-SNAPSHOT @ G:\java\taobei_pro\taobei-sso\pom.xml.
+2017-12-05 19:52:16,182 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fastdfs_client/src/main/java
+2017-12-05 19:52:16,183 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fastdfs_client/src/main/resources
+2017-12-05 19:52:16,183 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fastdfs_client/src/test/java
+2017-12-05 19:52:16,401 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pagehelper/src/main/java
+2017-12-05 19:52:16,401 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pagehelper/src/main/resources
+2017-12-05 19:52:16,402 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pagehelper/src/test/java
+2017-12-05 19:52:16,402 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /pagehelper/src/test/resources
+2017-12-05 19:52:16,783 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-common/src/main/java
+2017-12-05 19:52:16,783 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-common/src/main/resources
+2017-12-05 19:52:16,784 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-common/src/test/java
+2017-12-05 19:52:16,784 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-common/src/test/resources
+2017-12-05 19:52:17,856 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-manager-dao/src/main/java
+2017-12-05 19:52:17,856 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /taobei-manager-dao/src/main/java overlaps with sources folder /taobei-manager-dao/src/main/java
+2017-12-05 19:52:17,857 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-manager-dao/src/test/java
+2017-12-05 19:52:17,857 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-manager-dao/src/test/resources
+2017-12-05 19:52:17,980 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-manager-pojo/src/main/java
+2017-12-05 19:52:17,980 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-manager-pojo/src/main/resources
+2017-12-05 19:52:17,980 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-manager-pojo/src/test/java
+2017-12-05 19:52:17,980 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-manager-pojo/src/test/resources
+2017-12-05 19:52:18,081 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-manager-service/src/main/java
+2017-12-05 19:52:18,081 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-manager-service/src/main/resources
+2017-12-05 19:52:18,082 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-manager-service/src/test/java
+2017-12-05 19:52:18,082 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-manager-service/src/test/resources
+2017-12-05 19:52:18,279 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-manager-web/src/main/java
+2017-12-05 19:52:18,281 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-manager-web/src/main/resources
+2017-12-05 19:52:18,281 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-manager-web/src/test/java
+2017-12-05 19:52:18,281 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-manager-web/src/test/resources
+2017-12-05 19:52:20,863 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-portal/src/main/java
+2017-12-05 19:52:20,863 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-portal/src/main/resources
+2017-12-05 19:52:20,864 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-portal/src/test/java
+2017-12-05 19:52:20,864 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-portal/src/test/resources
+2017-12-05 19:52:21,893 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-rest/src/main/java
+2017-12-05 19:52:21,893 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-rest/src/main/resources
+2017-12-05 19:52:21,893 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-rest/src/test/java
+2017-12-05 19:52:21,894 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-rest/src/test/resources
+2017-12-05 19:52:23,009 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-search/src/main/java
+2017-12-05 19:52:23,009 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /taobei-search/src/main/java overlaps with sources folder /taobei-search/src/main/java
+2017-12-05 19:52:23,009 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-search/src/main/resources
+2017-12-05 19:52:23,010 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-search/src/test/java
+2017-12-05 19:52:23,010 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-search/src/test/resources
+2017-12-05 19:52:24,169 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/main/java
+2017-12-05 19:52:24,169 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/main/resources
+2017-12-05 19:52:24,170 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taobei-sso/src/test/java
+2017-12-05 19:52:24,170 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taobei-sso/src/test/resources
+2017-12-05 19:52:26,753 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-manager-web
+2017-12-05 19:52:26,796 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-portal
+2017-12-05 19:52:26,827 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-rest
+2017-12-05 19:52:26,860 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-search
+2017-12-05 19:52:26,910 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for taobei-sso
+2017-12-05 19:52:26,913 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 27 sec
+2017-12-05 20:02:13,070 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-05 20:02:13,071 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:02:17,247 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-12-05 20:02:17,303 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-search
+2017-12-05 20:02:17,303 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:02:23,434 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-rest
+2017-12-05 20:02:23,434 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:02:56,799 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-12-05 20:02:56,841 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-portal
+2017-12-05 20:02:56,841 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:09:14,070 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2017-12-05 20:09:17,265 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.2/jackson-databind-2.4.2-sources.jar
+2017-12-05 20:11:12,659 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.2/jackson-databind-2.4.2-sources.jar
+2017-12-05 20:11:12,847 [Worker-23] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.4.2
+2017-12-05 20:12:53,548 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-05 20:12:53,548 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:12:56,622 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-12-05 20:12:56,645 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-search
+2017-12-05 20:12:56,645 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:13:02,964 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-rest
+2017-12-05 20:13:02,964 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:13:06,245 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-12-05 20:13:06,283 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-portal
+2017-12-05 20:13:06,283 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:16:55,415 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-12-05 20:16:55,435 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-portal
+2017-12-05 20:16:55,435 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:17:02,992 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-sso
+2017-12-05 20:17:02,992 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:18:48,407 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-12-05 20:18:48,425 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-portal
+2017-12-05 20:18:48,425 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run
+2017-12-05 20:22:15,936 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-12-05 20:22:15,955 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - G:\java\taobei_pro\taobei-portal
+2017-12-05 20:22:15,955 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean tomcat7:run

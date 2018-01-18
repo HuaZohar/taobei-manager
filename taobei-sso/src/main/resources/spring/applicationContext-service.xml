@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop 
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx 
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+    
+    <!-- 包扫描器  扫描带service注解的类 -->
+    <context:component-scan base-package="com.taobei.sso.service"></context:component-scan>
+	
+	
+	<!-- 配置jedis的单机版 -->
+	<bean id="jedisPool" class="redis.clients.jedis.JedisPool">
+		<constructor-arg name="host" value="192.168.255.128" />
+		<constructor-arg name="port" value="6379" />
+	</bean>
+	<!-- 配置redis客户端实现类 -->
+	<bean id="jedisClientSingle" class="com.taobei.sso.component.impl.JedisClientSingle"></bean>
+	
+	
+	<!-- 注：单机版和集群版不能共存，我们设计的接口不能共存 -->
+	
+	
+	<!-- 配置redis客户端集群版 -->
+	<!-- <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
+		<constructor-arg>
+			<set>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.255.128" />
+					<constructor-arg name="port" value="7001" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.255.128" />
+					<constructor-arg name="port" value="7002" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.255.128" />
+					<constructor-arg name="port" value="7003" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.255.128" />
+					<constructor-arg name="port" value="7004" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.255.128" />
+					<constructor-arg name="port" value="7005" />
+				</bean>
+				<bean class="redis.clients.jedis.HostAndPort">
+					<constructor-arg name="host" value="192.168.255.128" />
+					<constructor-arg name="port" value="7006" />
+				</bean>
+			</set>
+		</constructor-arg>
+	</bean> -->
+	<!-- 配置redis客户端实现类 -->
+	<!-- <bean id="jedisClientCluster" class="com.taobei.sso.component.impl.JedisClientCluster"></bean> -->
+	
+</beans>

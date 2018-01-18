@@ -1,1 +1,1 @@
-商品详细信息页面，FreeMarker使用
+“xxxxxxxxxxx说明xxxxxxxxxxxx”
